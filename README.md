@@ -3,7 +3,7 @@
 # Image Processing Tasks
 ## Tables of Contents
   * [About](#about)
-  * [Task 1](#Task 1- Image Rotation :)
+  * [Task 1](#Task 1)
   * [Task 2](#task-2)
   * [Task 3](#task-3) 
   * [Task 4](#task-4)
