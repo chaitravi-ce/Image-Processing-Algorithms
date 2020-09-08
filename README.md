@@ -3,7 +3,7 @@
 # Image Processing Tasks
 ## Tables of Contents
   * [About](#about)
-  * [Task 1](#task 1-image-rotation)
+  * [Task 1](#task-1-image-rotation)
   * [Task 2](#task-2)
   * [Task 3](#task-3) 
   * [Task 4](#task-4)
@@ -66,7 +66,7 @@ Edge Detection done using 3x3 kernels.
 ### Erosion and Dilation 
  Original Image  | Erosion  | Dilation  
  :-----:|:-----:|:-----:|
- <img width="240" height="300" src="https://github.com/chaitravi-ce/SRA-Tasks/blob/master/Task-4%20Dilation%20and%20Erosion/morphological.png">|<img width="240" height="300" src="https://github.com/chaitravi-ce/SRA-Tasks/blob/master/Task-4%20Dilation%20and%20Erosion/erosion.py">|<img width="240" height="300" src="https://github.com/chaitravi-ce/SRA-Tasks/blob/master/Task-4%20Dilation%20and%20Erosion/dilation.py">
+ <img width="240" height="300" src="https://github.com/chaitravi-ce/SRA-Tasks/blob/master/Task-4%20Dilation%20and%20Erosion/morphological.png">|<img width="240" height="300" src="https://github.com/chaitravi-ce/SRA-Tasks/blob/master/Task-4%20Dilation%20and%20Erosion/Erosion.png">|<img width="240" height="300" src="https://github.com/chaitravi-ce/SRA-Tasks/blob/master/Task-4%20Dilation%20and%20Erosion/Dilation.jpg">
  
  
 ## Task 5 - Masking :
