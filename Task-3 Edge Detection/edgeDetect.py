@@ -1,14 +1,14 @@
 from PIL import Image, ImageDraw
 import numpy as np
 
-input_image = Image.open("edge-detection.png")
+input_image = Image.open("edge-detection2.jpg")
 input_pixels = input_image.load()
 
 vert = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
 hor = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
 sobel = np.array([[1, 2, 2], [1, 1, 0], [2, 4, 1]])
 
-kernel = hor
+kernel = vert
 
 offset = len(kernel) // 2
 output_image = Image.new("RGB", input_image.size)
