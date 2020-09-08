@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image, ImageDraw
 
-input_image = Image.open("blur.jpeg")
+input_image = Image.open("filter.png")
 input_pixels = input_image.load()
 
 # Box-Blur
@@ -32,3 +32,4 @@ for x in range(offset, input_image.width - offset):
 
         draw.point((x, y), (int(acc[0]), int(acc[1]), int(acc[2])))
 output_image.show()
+output_image.save('Box-Blur Lena.jpg')

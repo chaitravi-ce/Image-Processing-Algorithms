@@ -32,7 +32,7 @@ gauss = np.array([[1, 4, 6, 4, 1],
                            [4, 16, 24, 16, 4],
                            [1, 4, 6, 4, 1]]) / 256
 
-img = "roi.jpeg"
+img = "roi.jpg"
 roiImg = "logo.png"
 
 im = np.array(Image.open(img))
@@ -51,5 +51,5 @@ for i in range(im.shape[0]):
 
 im = np.bitwise_or(im, masked)
 roi = Image.fromarray(im.astype(np.uint8))
-# roi.save('moved.jpeg')
+roi.save('ROI-Result.jpeg')
 roi.show()

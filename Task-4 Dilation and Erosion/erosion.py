@@ -34,5 +34,5 @@ img = "morphological.png"
 im = gray2binary(rgb2gray(np.array(Image.open(img))))
 im = erosion(im, structuring_element)
 erodedImg = Image.fromarray(im).convert('RGB')
-# erodedImg.save('erosion.png')
+erodedImg.save('Erosion.png')
 erodedImg.show()

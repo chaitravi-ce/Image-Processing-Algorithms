@@ -27,3 +27,4 @@ for x in range(offset, input_image.width - offset):
 
         draw.point((x, y), (int(acc[0]), int(acc[1]), int(acc[2])))
 output_image.show()
+output_image.save('Vertical Edge Detection-Cube.jpg')

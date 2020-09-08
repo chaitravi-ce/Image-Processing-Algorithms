@@ -45,12 +45,12 @@ def convolve3d(image, kernel):
 
 gauss = np.array([[1, 4, 6, 4, 1], [4, 16, 24, 16, 4], [6, 24, 36, 24, 6], [4, 16, 24, 16, 4], [1, 4, 6, 4, 1]]) / 256
 
-img = "mask.jpeg"
+img = "mask.jpg"
 im = np.array(Image.open(img))
 low = np.array([94, 130, 38])
 high = np.array([179, 255, 255])
 im = rgb2bgr(im)
 im = masking_image(convolve3d(im, gauss), low, high)
 mask = Image.fromarray(im.astype(np.uint8))
-# pil_img.save('masked.jpeg')
 mask.show()
+mask.save('Masked Image.jpg')
